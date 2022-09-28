@@ -24,8 +24,6 @@
     --font-size-title:2rem;
 }
 
-
-
 body {
     margin: 0;
     display: flex;
@@ -46,7 +44,7 @@ h2 {
     font-size: var(--font-size-title);
 }
 
-td{
+td {
     padding: var(--spacing);
 }
 
