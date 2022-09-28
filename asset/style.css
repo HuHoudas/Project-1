@@ -1,37 +1,55 @@
+@font-face {
+    font-family:'MyWebFont';
+    src: url('creativeblock-bb.regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300 800;
+  }
+
+:root {
+    --primary: rgb(63, 70, 214);
+    --secondary: rgb(22, 122, 184);
+    --light: rgb(236, 244, 249);
+    --dark: rgb(31, 33, 34);
+    --lightDark: rgb(48, 59, 65);
+
+    --spacing: 8px;
+    --spacing2: calc(8px * 2);
+    --spacing3: calc(8px * 3);
+    --spacing4: calc(8px * 4);
+    --spacing5: calc(8px * 5);
+
+    --font-familly:MyWebFont;
+
+    --font-size-other:1.3rem;
+    --font-size-title:2rem;
+}
+
+
+
 body {
     margin: 0;
-}
-  
-[data-tab-info] {
-    display: none;
-}
-  
-.active[data-tab-info] {
-    display: block;
-}
-  
-.tab-content {
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: rgb(82, 75, 75);
-}
-  
-.tabs {
-    font-size: 40px;
-    color: rgb(255, 255, 255);
     display: flex;
-    margin: 0;
+    justify-content: space-around;
+    align-items: flex-start;
 }
-  
-.tabs span {
-    background: rgb(63, 70, 214);
-    padding: 10px;
-    border: 1px solid rgb(255, 255, 255);
+
+main {
+    margin: var(--spacing);
 }
-  
-.tabs span:hover {
-    background: rgb(22, 122, 184);
-    cursor: pointer;
-    color: black;
+
+table, li {
+    font-size: var(--font-size-other);
+}
+
+h2 {
+    font-family:var(--font-familly);
+    font-size: var(--font-size-title);
+}
+
+td{
+    padding: var(--spacing);
+}
+
+li {
+    margin: var(--spacing);
 }
