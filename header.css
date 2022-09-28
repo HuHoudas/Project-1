@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-image: url(pay.jpg);
+    background-size: 100%;
+
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(6, 5, 4);
+    scrollbar-shadow-color: ;
+    text-shadow: 5px 5px 5px white;
+}
+
+.nav-list {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: content-box;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: rgb(118, 175, 215);
+    
+}
+.nav-item{
+    margin-right: 2rem;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.nav-item a{
+   
+    color: black;
+    letter-spacing: 1.2px;
+
+}
+.nav-pro {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: content-box;
+    list-style: none;
+}
+    @media  and (max-width:680px) {
+        nav.items{
+            margin-lefts: 0px;
+        }
+        
+    }
