@@ -1,37 +1,41 @@
-body {
-    margin: 0;
+:root {
+    --primary: #6cc4f7;
+    --light: #f2f2f2;
+    --dark: black;
+    --intermediate: #bbb6bb;
 }
-  
-[data-tab-info] {
-    display: none;
-}
-  
-.active[data-tab-info] {
-    display: block;
-}
-  
-.tab-content {
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: rgb(82, 75, 75);
-}
-  
-.tabs {
-    font-size: 40px;
-    color: rgb(255, 255, 255);
+
+.loisirs {
     display: flex;
-    margin: 0;
+    padding: .5rem;
+    margin: 0 .5rem 1rem;
+    border-radius: .5rem;
+    box-shadow: #6cc4f7;
+    justify-content: space-around;
+
 }
-  
-.tabs span {
-    background: rgb(63, 70, 214);
-    padding: 10px;
-    border: 1px solid rgb(255, 255, 255);
+
+figure {
+    display: flex;
+
 }
-  
-.tabs span:hover {
-    background: rgb(22, 122, 184);
-    cursor: pointer;
-    color: black;
+
+img {
+    object-fit: cover;
+    object-position: top;
+    width: 200px;
+    height: 300px;
+}
+
+
+.figcaption h2 {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+}
+
+.figcaption p {
+    position: absolute;
+    top: 17px;
+    left: 20px;
 }

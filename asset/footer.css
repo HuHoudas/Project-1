@@ -1,0 +1,16 @@
+footer {
+    background-color: rgb(42, 161, 216);
+    padding: 10px;
+
+
+}
+
+ul {
+    display: flex;
+    gap 20px;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
