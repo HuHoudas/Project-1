@@ -3,7 +3,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-repeat: no-repeat;
-    background-image: url(pay.jpg);
+    background-image: url(./pay.jpg);
     background-size: 100%;
 
 }
