@@ -11,10 +11,9 @@
     <link rel="stylesheet" href="./asset/footer.css">
 
 </head>
-<?php include "header.php" ?>
+
+<?php include "header.php"?>
 <body>
-
-
 <div class="loisirs">
     <figure>
         <figcaption>

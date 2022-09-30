@@ -10,30 +10,34 @@
 
 </head>
 
-    <header>
-
-        <img class="image"
-            src="https://sites.google.com/site/villageschtroumpfs/_/rsrc/1441410130483/patisier.gif?height=168&width=300"
-            alt="image du strounf patitier">
+<header>
+    <!--     <div>
+            <h1> schtroumpf patissier</h1>
+        </div>
         <div>
-            <div>
-                <h1> schtroumpf patissier</h1>
-            </div>
-            <div>
-                <h2> reconvertion développeur web</h2>
-            </div>
+            <h2> reconvertion développeur web</h2>
         </div>
+ -->
 
+ <div id="mySidenav" class="sidenav">
+  <a id="closeBtn" href="#" class="close">×</a>
+  <ul>
+    <li><a href="index.php">Home</a></li>
+    <li><a href="form.php">Expérience</a></li>
+    <li><a href="loisir.php">Loisir</a></li>
+  </ul>
+  <img src="asset/schtroumpfs-image-animee-0005.gif" alt="mushroom house">
+</div>
 
-    </header>
-    <nav>
-        <div class="nav-list">
-            <a class="nav-item" href="index.php">profil</a>
-            <a class="nav-item" href="form.php">Expe/Form</a>
-            <a class="nav-item" href="Soft_Skills.php">comp</a>
-            <a class="nav-item" href="loisir.php">Loisir</a>
-        </div>
-    </nav>
+<a href="#" id="openBtn">
+  <span class="burger-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+</a>
+    <script src="asset/index.js"></script>
+</header>
 
 <body>
 </body>
