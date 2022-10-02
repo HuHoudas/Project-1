@@ -25,7 +25,7 @@
       <li><a href="index.php">Home</a></li>
       <li><a href="form.php">Expérience</a></li>
       <li><a href="loisirs.php">Loisir</a></li>
-      <li><a href="profil.php">profil</a></li>
+      
 
     </ul>
     <img src="asset/schtroumpfs-image-animee-0005.gif" alt="mushroom house">

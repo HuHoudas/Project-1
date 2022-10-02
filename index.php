@@ -12,8 +12,19 @@
 </head>
 <body>
 <?php include "header.php"?>
+<main>
+    <h2> schtroumpf patissier</h2>
+        
+            <img src="asset/patisier.jpg" alt="strounf patitier">
+            <h2 class="main-title">Profil</h2>
+            <p>Voici une coute video de mon strounf univert </p>
+            <video controls="controls"> <source src = "asset/les stroumf.mp4" alt="video des stroumf">
+            </video>
+        </main>
    
+   
+        <?php include "footer.php"?> 
 </body>
-<?php include "footer.php"?>
+
 
 </html>
