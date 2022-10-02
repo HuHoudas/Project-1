@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/style_soft_skills.css">
-    <title>Soft_Skills</title>
+    <title>Compétences générales</title>
 </head>
 
 <body>
 <!-- require header.php -->
     <div class="Soft_skills">
-        <h2>Soft Skills</h2>
+        <h2>Compétences générales</h2>
         <ul>
-            <li>Teamwork</li>
-            <li>Communication</li>
-            <li>Time management</li>
-            <li>Problem solving</li>
+            <li>Travail en équipe</li>
+            <li>La communication</li>
+            <li>Gestion du temps</li>
+            <li>Résolution de problème</li>
         </ul>
     </div>
     <div class="comp">

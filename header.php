@@ -27,10 +27,10 @@
     </header>
     <nav>
         <div class="nav-list">
-            <a class="nav-item" href="index.php">profil</a>
-            <a class="nav-item" href="form.php">Expe/Form</a>
-            <a class="nav-item" href="Soft_Skills.php">comp</a>
-            <a class="nav-item" href="loisir.php">Loisir</a>
+            <a class="nav-item" href="index.php">Profil</a>
+            <a class="nav-item" href="form.php">Expériences et formation</a>
+            <a class="nav-item" href="Soft_Skills.php">Compétences générales</a>
+            <a class="nav-item" href="loisirs.php">Loisirs</a>
         </div>
     </nav>
 

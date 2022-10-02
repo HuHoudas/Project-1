@@ -17,16 +17,25 @@
 
 figure {
     display: flex;
+    width: auto;
+    height: auto;
+    background-color: #bde3fa;
+    border-radius: 8%;
 
 }
 
 img {
     object-fit: cover;
     object-position: top;
-    width: 200px;
+    width: 250px;
     height: 300px;
+    border-radius: 8%;
 }
 
+figcaption {
+    width: 250px;
+    height: 530px;
+}
 
 .figcaption h2 {
     position: absolute;
@@ -36,6 +45,7 @@ img {
 
 .figcaption p {
     position: absolute;
+    inline-size: 1.5rem;
     top: 17px;
     left: 20px;
 }
