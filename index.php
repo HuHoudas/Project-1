@@ -12,12 +12,7 @@
 </head>
 <body>
 <?php include "header.php"?>
-    <main>
-    <h2 class="main-title">Profil</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio dolore voluptas repellendus vitae ab quod! Aut officia autem magni et omnis, <br> sapiente quaerat molestiae aspernatur minima, vel vero officiis.</p>
-       
-    </main>
-    <hr>
+   
 </body>
 <?php include "footer.php"?>
 
