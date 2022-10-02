@@ -5,12 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./asset/style_soft_skills.css">
-    <title>Compétences générales</title>
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/header.css">
+    <link rel="stylesheet" href="./asset/footer.css">
+    <title>Soft_Skills</title>
 </head>
 
+<nav>
+        <div class="nav-list">
+            <a class="nav-item" href="index.php">profil</a>
+            <a class="nav-item" href="form.php">Expe/Form</a>
+            <a class="nav-item" href="Soft_Skills.php">comp</a>
+            <a class="nav-item" href="loisir.php">Loisir</a>
+        </div>
+    </nav>
 <body>
-<!-- require header.php -->
     <div class="Soft_skills">
         <h2>Compétences générales</h2>
         <ul>
@@ -53,7 +62,6 @@
             </tbody>
         </table>
     </div>
-    <!-- require footer.php -->
 </body>
-
+<?php include "footer.php"?>
 </html>

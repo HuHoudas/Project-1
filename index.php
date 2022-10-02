@@ -10,15 +10,9 @@
     <link rel="stylesheet" href="./asset/footer.css">
     <title>Projet CV</title>
 </head>
-<?php include "header.php" ?>
 <body>
-    <hr>
-    <main>
-    <h2 class="main-title">Profil</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio dolore voluptas repellendus vitae ab quod! Aut officia autem magni et omnis, <br> sapiente quaerat molestiae aspernatur minima, vel vero officiis.</p>
-       
-    </main>
-    <hr>
+<?php include "header.php"?>
+   
 </body>
 <?php include "footer.php"?>
 

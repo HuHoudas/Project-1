@@ -1,5 +1,11 @@
+@font-face {
+    font-family:'MyWebFont';
+    src: url('creativeblock-bb.regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300 800;
+}
 footer {
-    background-color: rgb(42, 161, 216);
+    background-color: lightblue;
     padding: 10px;
 
 
