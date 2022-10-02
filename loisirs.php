@@ -14,6 +14,9 @@
 
 <?php include "header.php"?>
 <body>
+
+<h1 class="h1loisirs">Loisirs</h1>
+
 <div class="loisirs">
     <figure>
         <figcaption>
@@ -25,7 +28,7 @@
     <figure>
         <figcaption>
             <img class ="arondi" src="./asset/poesie.jpg" alt="Poesie">
-            <h2>La poésie</h2>
+            <h2>La Poésie</h2>
             <p>La schtroumpf poésie me remet en contact avec ce qu'il y a de plus sensible dans l'existence d'un schtroumpf en stimulant notre inconscient, dans lequel la schtroumpf sensibilité s'épanoui.</p>
         </figcaption>
     </figure>
