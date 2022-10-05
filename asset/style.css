@@ -8,24 +8,34 @@
 :root {
 
     --primary: #a4deff;
-    --light: #fdf7f7;
+    --light: #f8f8f8;
     --dark: black;
     --intermediate: #bbb6bb;
 }
+
 *{
     margin:0;
 }
+body {
+    background-color:white;
+}
 
-.h1 loisirs {
-    background-color: var(--primary);
+.h1loisirs {
+    background-color: var(--light);
+    box-shadow: 2px 2px 4px grey;
     padding: 10px;
+    width: fit-content;
+    margin: 16px;
+    font-size: 3rem;
 }
 
 .loisirs {
     display: flex;
+    flex-wrap: wrap;
     padding: .5rem;
     margin: 0 .5rem 1rem;
     border-radius: .5rem;
+    gap :16px;
     box-shadow: var(--primary);
     justify-content: space-around;
 
@@ -35,21 +45,15 @@ figure {
     display: flex;
     width: 255px;
     height: auto;
-    background-color: var(--primary);
-    border-radius: 8%;
-    border: 3px solid;
-    border-color: var(--dark);
+    background-color: var(--primary);;
 
 }
 
 .arondi {
     object-fit: cover;
     object-position: top;
-    width: 250px;
+    width: 255px;
     height: 300px;
-    border-radius: 8%;
-    border: 3px solid;
-    border-color: var(--dark);
 }
 
 figcaption {
@@ -79,24 +83,18 @@ div {
 }
 
 main {
-
     display: flex;
    justify-content: space-between;
     background-size: cover;
     background-image: url("pay.jpg");
     background-repeat: no-repeat;
-    height: 300px;
-
-
-
+    height: fit-content;
 }
 
 .bordure {
    margin-top: 30px;
-    
-    clip-path: circle();
     height: 80%;
-
+margin-inline-start: 16px;
 }
 
 .main-title {
@@ -106,24 +104,38 @@ margin-right: 20px ;
     background-color: var(--light);
     font-size: 2rem;
     box-shadow: 2px 2px 4px grey;
-
-
-
 }
 
 h1,
 h2 {
     font-family: MyWebFont;
-    
 }
 
-h1 {
+main div h1 {
     margin: 20px;
 }
+
 h2{
     padding: 20px;
     font-size: 2rem;
 }
 p{  padding: 20px;
 
+}
+
+@media  screen and (max-width:700px) {
+    main {
+        flex-wrap: wrap-reverse;
+        min-width: 411px;
+    }
+    .main-title {
+        margin-block: 0;
+        margin-inline: 0;
+    }
+    figure {
+        margin-top: 20px;
+    }
+    .h1loisirs {
+        margin: auto;
+    }
 }

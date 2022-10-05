@@ -1,5 +1,5 @@
 @font-face {
-    font-family:'MyWebFont';
+    font-family: 'MyWebFont';
     src: url('creativeblock-bb.regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 300 800;
@@ -10,6 +10,14 @@
     --light: rgb(236, 244, 249);
     --dark: rgb(3, 9, 13);
     --intermediate: #bbb6bb;
+}
+
+* {
+    margin: 0;
+}
+
+header div ul li:first-child {
+    margin-top: 50%;
 }
 
 header {
@@ -30,7 +38,7 @@ header div {
     flex-direction: column;
     align-items: center;
     color: rgb(6, 5, 4);
-    scrollbar-shadow-color:rgb(92, 85, 81);
+    scrollbar-shadow-color: rgb(92, 85, 81);
     text-shadow: 5px 5px 5px white;
 }
 
@@ -93,6 +101,7 @@ header div {
     background: lightblue;
     padding-top: 60px;
     transition: left 0.5s ease;
+    overflow: hidden;
 }
 
 /* Sidenav menu links */
@@ -145,10 +154,13 @@ header div {
 }
 
 .sidenav ul li a {
-    font-size: 1.3rem;
+    font-size: 2.5rem;
+    font-family: MyWebFont;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px grey;
 }
 
-.sidenav img{
+.sidenav img {
     height: fit-content;
     width: fit-content;
     margin-top: 200px;
