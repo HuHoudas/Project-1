@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primary: blue;
+    --primary: #2CBAEC;
     --light: rgb(236, 244, 249);
     --dark: rgb(3, 9, 13);
     --intermediate: #bbb6bb;
@@ -94,11 +94,11 @@ header div {
 .sidenav {
     display: none;
     height: 100%;
-    width: 250px;
+    width: 400px;
     position: fixed;
     z-index: 1;
     top: 0;
-    background: lightblue;
+    background: var(--primary);
     padding-top: 60px;
     transition: left 0.5s ease;
     overflow: hidden;
@@ -143,7 +143,7 @@ header div {
     display: block;
     width: 35px;
     height: 5px;
-    background: var(--dark);
+    background: var(--primary);
     margin: 6px 0;
 }
 
