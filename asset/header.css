@@ -12,6 +12,10 @@
     --intermediate: #bbb6bb;
 }
 
+*{
+    margin :0;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -90,6 +94,7 @@ header div {
     background: lightblue;
     padding-top: 60px;
     transition: left 0.5s ease;
+    overflow: hidden;
 }
 
 /* Sidenav menu links */
