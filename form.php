@@ -7,54 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/style.css">
     <link rel="stylesheet" href="./asset/header.css">
-    <link rel="stylesheet" href="./asset/footer.css"    >
+    <link rel="stylesheet" href="./asset/footer.css">
+    <link rel="stylesheet" href="./asset/style_soft_skills.css">
     <title>Document</title>
 </head>
 <?php include "header.php" ?>
 <body>
-    <h1>Expereience profetionnelle</h1>
     <div>
         <ul class="nav-pro">
             <div>
+                <h1 class="nav-pro">Expereience profetionnelle</h1>
                 <div>
                     <p>2002-2003</p>
-                    <li class="nav-esp"><a href=#></a> Chef patissier dans la vallé des schtroumpf</a></li>
+                    <li >Chef patissier dans la vallé des schtroumpf</a></li>
 
                 </div>
-                <div class="sec-gauche">
-                    <p>2001-2002</p>
-                </div>
-                <div class="sec-droite">
-                    <li class="nav-esp"><a href=#></a>Commit de cuisine au grand schtroumpf</li>
-                </div>
                 <div>
-                    <p>2001-2000</p>
-                    <li class="nav-esp"><a href=#></a>Apprenti schtroumpf patitier</li>
+                    <p>2001-2002</p>
+                    <li><a href=#></a>Commit de cuisine au grand schtroumpf</li>
+                </div>
+                
+                <div>
+                    <p>2000-2001</p>
+                    <li ><a href=#></a>Apprenti schtroumpf patitier</li>
                 </div>
                 <div>
                     <p>1999-2000</p>
-                    <li class="nav-esp"><a href=#></a>Preparateur de schtroumpfcommande</li>
+                    <li><a href=#></a>Preparateur de schtroumpfcommande</li>
                 </div>
             </div>
         </ul>
     </div>
-    <h2>formation/Diplôme</h2>
-    <ul class="nav-pro">
-        <div>
-            <div>
-                <li class="nav-esp"><a href=#></a> obtention du schroumpf patitier</a></li>
-            </div>
-            <div>
-                <li class="nav-esp"><a href=#></a></li>
-            </div>
-            <div>
-                <li class="nav-esp"><a href=#></a></li>
-            </div>
-            <div>
-                <li class="nav-esp"><a href=#></a></li>
-            </div>
+    <div>
+        <div class="nav-pro">
+            <h2 class="nav-pro">formation/Diplôme</h2>
+            <img src="asset/aplaudi.gif" alt="strounf qui applaudi">
+                <li > obtention du schroumpf patitier</a></li>
+           
+            
         </div>
-    </ul>
+    
     </div>
 </body>
 <?php include "footer.php" ?>

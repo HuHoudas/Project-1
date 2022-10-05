@@ -7,7 +7,7 @@
 
 :root {
 
-    --primary: #a4deff;
+    --primary: #2CBAEC;
     --light: #f8f8f8;
     --dark: black;
     --intermediate: #bbb6bb;
@@ -85,14 +85,12 @@ figcaption {
 div {
     display: flex;
     align-items: center;
-
 }
 
 main {
     display: flex;
     justify-content: space-between;
     background-size: cover;
-    background-image: url("pay.jpg");
     background-repeat: no-repeat;
     height: fit-content;
 }
@@ -104,6 +102,11 @@ main {
 }
 
 .main-title {
+    margin-right: 20px;
+    margin-block-start: 24px;
+    color: var(--primary);
+    font-size: 4rem;
+}
 
     margin-right: 20px;
     margin-block: 40px;
