@@ -14,9 +14,10 @@
   <div id="mySidenav" class="sidenav">
     <a id="closeBtn" href="#" class="close">x</a>
     <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="form.php">Expérience</a></li>
-      <li><a href="loisirs.php">Loisir</a></li>
+      <li><a href="index.php">Profil</a></li>
+      <li><a href="form.php">Experience</a></li>
+      <li><a href="loisirs.php">Loisirs</a></li>
+      <img src="./asset/schtroumpfs-image-animee-0005.gif" alt="schtroumpf">
     </ul>
     
   </div></div>
