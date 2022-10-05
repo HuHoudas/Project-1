@@ -35,24 +35,33 @@
 </header>
 
 <body>
+
 <section id="contact">
   <h1>
     <element id="bluetext">
     Contacter le Schtroumpf !
     </element>
   </h1>
-  <form id="contactform">
-    <label for="firstname">Prénom</label>
-    <input type="text" id="firstname" name="firstname">
+    <form id="contactform" action="result.php" method="GET">
+      <label for="firstname">Prénom</label>
+      <input type="text" id="firstname" name="firstname">
 
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
 
-    <label for="message">Message</label>
-    <textarea name="message" id="" cols="30" rows="10"></textarea>
-    <button>Envoyer</button>
+      <div class="etTu">
+        Et-tu Schtroumpf ?
+      <input type="radio" name="Schtroumpf";
+      <?php if (isset($Schtroumpf) && $Schtroumpf=="Oui") echo "checked";?>
+      value="Oui">Oui!
+      <input type="radio" name="Schtroumpf"
+      <?php if (isset($Schtroumpf) && $Schtroumpf=="Non") echo "checked";?>
+      value="Non">Non!
+      </div>
+
+      <label for="message">Message</label>
+      <textarea name="message" id="" cols="30" rows="10"></textarea>
+      <button>Envoyer</button>
 </body>
-
-
 
 </html>
