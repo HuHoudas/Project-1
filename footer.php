@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./asset/footer.css">
+    <link rel="stylesheet" herf="./assets/messagemoi.css">
 
 </head>
 <body>
@@ -14,10 +15,7 @@
 
 <footer class="contacts">
     <ul>
-        <li>schtroumpf.patissier@gmail.com</li>
-        <li>Tel: 06 55 51 11</li>
-        <li>1000 Vallée de Schtroumpf</li>
+        <li><button><a href="messagemoi.php">SCHTROUMPF MOI !</a></button></li>
     </ul>
 </footer>
-
 </html>

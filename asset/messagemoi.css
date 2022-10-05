@@ -1,0 +1,67 @@
+:root {
+  font-size: 1.3ram;
+}
+
+body {
+  background-image: url("home.jpg");
+  background-repeat: no-repeat;
+}
+
+#bluetext {
+  color: black;
+  display: flex;
+  justify-content: center;
+
+}
+
+#contactform {
+  font-size: 1.3ram;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+}
+
+label {
+  margin-block-start: 8px;
+  margin-block-end: 4px;
+}
+
+input {
+  font-size: 1rem;
+  padding-block: 4px;
+  padding-inline: 8px;
+}
+
+textarea {
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--primary);
+  color: aquamarine;
+  padding: 8px;
+  border-width: 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: fit-content;
+  margin-block-start: 4px;
+
+}
+
+button:hover {
+  filter: brightness(150%);
+
+}
+
+button:active {
+  filter: brightness(100%);
+
+}
+
+.esTu {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 100px;
+}
