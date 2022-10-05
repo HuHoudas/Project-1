@@ -47,6 +47,7 @@ button {
   font-size: 1rem;
   width: fit-content;
   margin-block-start: 4px;
+  font-family: 'MyWebFont';
 
 }
 
