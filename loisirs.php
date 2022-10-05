@@ -16,8 +16,7 @@
 <body>
 
 <h1 class="h1loisirs">Loisirs</h1>
-
-<div class="loisirs">
+<div class="loisirs1">
     <figure>
         <figcaption>
             <img class ="arondi" src="./asset/plage.jpg" alt="Natation">
@@ -26,10 +25,10 @@
         </figcaption>
     </figure>
     <figure>
-        <figcaption>
-            <img class ="arondi" src="./asset/poesie.jpg" alt="Poesie">
-            <h2>La Poésie</h2>
-            <p>La schtroumpf poésie me remet en contact avec ce qu'il y a de plus sensible dans l'existence d'un schtroumpf en stimulant notre inconscient, dans lequel la schtroumpf sensibilité s'épanoui.</p>
+    <figcaption>
+            <img class ="arondi" src="./asset/aviation.jpg" alt="Aviation">
+            <h2>L'Aviation</h2>
+            <p>J'aime bien le schtroumpf ciel. Ce schtroumpf sentiment, schtroumpf sensation, tout au long de cette schtroumpf aviation aventure, que tout peut arriver, surtout le meilleur.</p>
         </figcaption>
     </figure>
     <figure>
@@ -39,6 +38,8 @@
             <p>Nos schtroumpf émotions, reveille notre schtroumpf humeur, développe nos schtroumpf compétences, renforce les liens sociaux et peut même provoquer des schtroumpf explosion !</p>
         </figcaption>
     </figure>
+</div>
+<div class="loisirs2">
     <figure>
         <figcaption>
             <img class ="arondi" src="./asset/cooking.jpeg" alt="Cusine">
@@ -47,10 +48,10 @@
         </figcaption>
     </figure>
     <figure>
-        <figcaption>
-            <img class ="arondi" src="./asset/aviation.jpg" alt="Aviation">
-            <h2>L'Aviation</h2>
-            <p>J'aime bien le schtroumpf ciel. Ce schtroumpf sentiment, schtroumpf sensation, tout au long de cette schtroumpf aviation aventure, que tout peut arriver, surtout le meilleur.</p>
+    <figcaption>
+            <img class ="arondi" src="./asset/poesie.jpg" alt="Poesie">
+            <h2>La Poésie</h2>
+            <p>La schtroumpf poésie me remet en contact avec ce qu'il y a de plus sensible dans l'existence d'un schtroumpf en stimulant notre inconscient, dans lequel la schtroumpf sensibilité s'épanoui.</p>
         </figcaption>
     </figure>
 </div>
