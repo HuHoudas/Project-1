@@ -41,7 +41,7 @@
     <div>
         <div class="nav-pro">
             <h2 class="nav-pro">formation/Diplôme</h2>
-            
+            <img src="asset/aplaudi.gif" alt="strounf qui applaudi">
                 <li > obtention du schroumpf patitier</a></li>
            
             
