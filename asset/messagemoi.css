@@ -1,0 +1,50 @@
+:root {
+  font-size: 1.3ram;
+}
+
+#bluetext {
+  color: var(--primary);
+  display: flex;
+  text-align: center;
+}
+
+#contactform {
+  font-size: 1.3ram;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+label {
+  margin-block-start: 8px;
+  margin-block-end: 4px;
+}
+
+input {
+  font-size: 1rem;
+  padding-block: 4px;
+  padding-inline: 8px;
+}
+
+button {
+  background-color: var(--primary);
+  color: aquamarine;
+  padding: 8px;
+  border-width: 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: fit-content;
+  margin-block-start: 4px;
+
+}
+
+button:hover {
+  filter: brightness(150%);
+
+}
+
+button:active {
+  filter: brightness(100%);
+  
+}
