@@ -34,6 +34,7 @@
 }
 
 div {
+    margin: 20px;
     display: bloc;
     flex-direction: column;
 }
