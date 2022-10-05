@@ -11,32 +11,22 @@
 </head>
 
 <header>
-  <!--         <div>
-            <h2> schtroumpf patissier</h1>
-        </div>
-        <div>
-            <h2> reconvertion développeur web</h2>
-        </div>
- -->
-
   <div id="mySidenav" class="sidenav">
-    <a id="closeBtn" href="#" class="close">×</a>
+    <a id="closeBtn" href="#" class="close">x</a>
     <ul>
       <li><a href="index.php">Home</a></li>
       <li><a href="form.php">Expérience</a></li>
       <li><a href="loisirs.php">Loisir</a></li>
-      
-
     </ul>
-    <img src="asset/schtroumpfs-image-animee-0005.gif" alt="mushroom house">
-  </div>
+    
+  </div></div>
+    <a href="#" id="openBtn">
+      <span class="burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </a>
 
-  <a href="#" id="openBtn">
-    <span class="burger-icon">
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-  </a>
-  <script src="asset/index.js"></script>
+    <script src="asset/index.js"></script>
 </header>

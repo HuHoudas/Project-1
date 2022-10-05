@@ -10,20 +10,25 @@
     <link rel="stylesheet" href="./asset/footer.css">
     <title>Projet CV</title>
 </head>
+
 <body>
-<?php include "header.php"?>
-<main>
-    <h2> schtroumpf patissier</h2>
-        
-            <img src="asset/patisier.jpg" alt="strounf patitier">
-            <h2 class="main-title">Profil</h2>
-            <p>Voici une coute video de mon strounf univert </p>
-            <video controls="controls"> <source src = "asset/les stroumf.mp4" alt="video des stroumf">
-            </video>
-        </main>
-   
-   
-        <?php include "footer.php"?> 
+    <?php include "header.php" ?>
+    <main>      
+        <img class="bordure" src="asset/patisier.jpg" alt="strounf patitier">
+        <div class="main-title">
+            <h1> SCHTROUMPF</br> PATISIER</h1>
+        </div>
+    </main>
+    <h2>Profil</h2>
+    <p> Voici une coute video de mon strounf univert </p>
+    <video controls="controls">
+        <source src="asset/les stroumf.mp4" alt="video des stroumf">
+    </video>
+
+
+
+
+    <?php include "footer.php" ?>
 </body>
 
 

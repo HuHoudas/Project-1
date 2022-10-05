@@ -18,6 +18,9 @@ header {
     justify-content: flex-end;
     background-repeat: no-repeat;
     background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
 
 }
 
@@ -131,7 +134,7 @@ header div {
     display: block;
     width: 35px;
     height: 5px;
-    background: var(--primary);
+    background: var(--dark);
     margin: 6px 0;
 }
 
