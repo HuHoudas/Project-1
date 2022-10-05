@@ -13,21 +13,31 @@
 
 <body>
     <?php include "header.php" ?>
-    <main>      
-        <img class="bordure" src="asset/patisier.jpg" alt="strounf patitier">
-        <div class="main-title">
-            <h1> SCHTROUMPF</br> PATISIER</h1>
+    <main>
+        <div class="div-title">
+            <div class="main-title">
+                <h1> SCHTROUMPF</br> PATISSIER</h1>
+            </div>
+            <div class="div-subtitle">
+                <h2> Developeur Web Junior</h2>
+            </div>
         </div>
+        <img class="bordure" src="asset/patisier.jpg" alt="strounf patitier">
     </main>
-    <h2>Profil</h2>
-    <p> Voici une coute video de mon strounf univert </p>
-    <video controls="controls">
-        <source src="asset/les stroumf.mp4" alt="video des stroumf">
-    </video>
-
-
-
-
+    <div class="bluePart">
+        <div>
+            <h2>Profil</h2> 
+            <video controls="controls" class="video">
+                <source src="asset/les stroumf.mp4" alt="video des stroumf">
+            </video>
+        </div>    
+        <p>Mes compétences de schtroumpf pâtissier liées au monde schtroumpf du web:
+            La passion schtroumpf de travailler sur les dernières technologies, de créer des logiciels de valeur, d'augmenter les revenus de l'entreprise et de voir l'équipe grandir ensemble sont quelques points qui animent mon schtroumpf passion de devenir le meilleur développeur schtroumpf au monde schtroumpf.</p>
+    </div>
+    <div class="whitePart">
+        <h2>pwouette</h2>
+        <img src="./asset/index.jpeg" alt="village schtroumpf">
+    </div>
     <?php include "footer.php" ?>
 </body>
 
