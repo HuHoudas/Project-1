@@ -7,38 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/style.css">
     <link rel="stylesheet" href="./asset/header.css">
-    <link rel="stylesheet" href="./asset/footer.css"    >
+    <link rel="stylesheet" href="./asset/footer.css">
+    <link rel="stylesheet" href="./asset/style_soft_skills.css">
     <title>Document</title>
 </head>
 <?php include "header.php" ?>
 <body>
-    <h1>Expereience profetionnelle</h1>
     <div>
+    <h1 class="nav-pro">Expereience profetionnelle</h1>
         <ul class="nav-pro">
             <div>
                 <div>
                     <p>2002-2003</p>
-                    <li class="nav-esp"><a href=#></a> Chef patissier dans la vallé des schtroumpf</a></li>
+                    <li ><a href=#></a> Chef patissier dans la vallé des schtroumpf</a></li>
 
                 </div>
-                <div class="sec-gauche">
+                <div>
                     <p>2001-2002</p>
                 </div>
-                <div class="sec-droite">
-                    <li class="nav-esp"><a href=#></a>Commit de cuisine au grand schtroumpf</li>
+                <div>
+                    <li><a href=#></a>Commit de cuisine au grand schtroumpf</li>
                 </div>
                 <div>
                     <p>2001-2000</p>
-                    <li class="nav-esp"><a href=#></a>Apprenti schtroumpf patitier</li>
+                    <li ><a href=#></a>Apprenti schtroumpf patitier</li>
                 </div>
                 <div>
                     <p>1999-2000</p>
-                    <li class="nav-esp"><a href=#></a>Preparateur de schtroumpfcommande</li>
+                    <li><a href=#></a>Preparateur de schtroumpfcommande</li>
                 </div>
+                <h2>formation/Diplôme</h2>
             </div>
         </ul>
     </div>
-    <h2>formation/Diplôme</h2>
     <ul class="nav-pro">
         <div>
             <div>
