@@ -28,6 +28,7 @@ footer {
   background-color: var(--secondary);
   padding: 20px;
   font-family: 'MyWebFont';
+  margin-top: 16px;
 }
 
 ul {
@@ -41,6 +42,14 @@ li {
   list-style: none;
   color: var(--light);
   font-size: var(--font-size-other);
+}
+
+li:hover {
+  filter: brightness(120%);
+}
+
+li:active {
+  filter: brightness(80%);
 }
 
 button {

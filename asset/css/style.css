@@ -80,6 +80,16 @@ figcaption {
     background-color: #2CBAEC;
 }
 
+figcaption:hover {
+    filter: brightness(120%);
+  
+  }
+  
+figcaption:active {
+    filter: brightness(80%);
+  
+  }
+
 .figcaption h2 {
     position: absolute;
     top: 17px;

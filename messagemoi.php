@@ -59,25 +59,28 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
 
 <body>
 
-<section id="contact">
-  <h1>
+  <section id="contact">
+  
     <element id="bluetext">
-    Contacter le Schtroumpf !
+      <h1>
+        Contacter le Schtroumpf !
+      </h1>
+      <img class ="happy" src="./asset/img/schtroumpf23.gif" alt="Schtroumpf">
     </element>
-  </h1>
-    <form id="contactform" action="" method="POST">
-      <?php if(!empty($errors)) { ?>
-      <ul class="error">
-        <?php foreach ($errors as $error) {?>
-        <li><?php echo $error; ?></li>
-      <?php } ?>
-        </ul>
-      <?php } ?>
+  
+      <form id="contactform" action="" method="POST">
+        <?php if (!empty($errors)) : ?>
+         <ul class="error">
+          <?php foreach ($errors as $error) : ?>
+         <li><?= $error; ?></li>
+         <?php endforeach; ?>
+          </ul>
+         <?php endif; ?>
       <label for="firstname">Prénom</label>
-      <input type="text" id="firstname" name="firstname" required>
+      <input type="text" id="firstname" name="firstname" required value="<?= $contact['firstname'] ?? '' ?>">
 
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="email" required value="<?= $contact['email'] ?? '' ?>">
 
       <div class="etTu">
         Et-tu Schtroumpf ?
@@ -90,8 +93,11 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
       </div>
 
       <label for="message">Message</label>
-      <textarea name="message" id="" cols="30" rows="10" required></textarea>
+      <textarea name="message" id="" cols="30" rows="10" required value="<?= $contact['message'] ?? '' ?>"></textarea>
       <button>Envoyer</button>
+    </form>
+
+    </section>
 </body>
 
 <?php include "footer.php"?>

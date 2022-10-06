@@ -50,7 +50,7 @@
     <figure>
     <figcaption>
             <img class ="arondi" src="./asset/img/poesie.jpg" alt="Poesie">
-            <h2>La Poésie</h2>
+            <h2>La Poesie</h2>
             <p>La schtroumpf poésie me remet en contact avec ce qu'il y a de plus sensible dans l'existence d'un schtroumpf en stimulant notre inconscient, dans lequel la schtroumpf sensibilité s'épanoui.</p>
         </figcaption>
     </figure>
