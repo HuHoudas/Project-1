@@ -30,48 +30,54 @@ body {
     font-size: 3rem;
 }
 
-.loisirs {
+.loisirs1 {
     display: flex;
-    flex-wrap: wrap;
-    padding: .5rem;
-    margin: 0 .5rem 1rem;
-    border-radius: .5rem;
-    gap: 16px;
-    box-shadow: var(--primary);
+    justify-items: center;
     justify-content: space-around;
+    padding-top: 50px;
+}
 
+.loisirs2 {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: auto;
 }
 
 figure {
-    display: flex;
-    width: 255px;
+    text-align: center;
     height: auto;
-    background-color: var(--primary);
-    ;
+    margin: auto;
+    max-width: 400px;
+    width: 300px;
 
 }
 
 .arondi {
     object-fit: cover;
     object-position: top;
-    width: 255px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
 figcaption {
-    width: 250px;
-    height: 530px;
+    width: 400px;
+    height: 700px;
+    font-size: 1.3rem;
+    background-color: #2CBAEC;
 }
 
 .figcaption h2 {
     position: absolute;
     top: 17px;
-    left: 20px;
+    color: #a4deff;
 }
 
 .figcaption p {
     position: absolute;
-    inline-size: 1.5rem;
+    inline-size: 1.3rem;
     top: 17px;
     left: 20px;
 }
@@ -91,14 +97,8 @@ main {
 
 .bordure {
     margin-top: 30px;
-    height: 400px;
+    height: 80%;
     margin-inline-start: 16px;
-}
-
-.div-title {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .main-title {
@@ -107,22 +107,21 @@ main {
     color: var(--primary);
     font-size: 4rem;
 }
-
-.main-title h1 {
-    text-shadow: 2px 2px 4px gray;
-}
-
-.div-title .div-subtitle {
-    margin-left: 48px;
-}
-
-.div-subtitle h2 {
-    font-size: 2.7rem;
+.h1loisirs {
+    margin-right: 20px;
+    margin-block: 40px;
+    background-color: var(--light);
+    font-size: 2rem;
+    box-shadow: 2px 2px 4px grey;
 }
 
 h1,
 h2 {
     font-family: MyWebFont;
+}
+
+main div h1 {
+    margin: 20px;
 }
 
 h2 {
@@ -133,51 +132,6 @@ h2 {
 p {
     padding: 20px;
 
-}
-
-.bluePart {
-    margin-top: 16px;
-    background-color: #2CBAEC;
-    display: flex;
-    justify-content: space-between;
-}
-
-.bluePart h2 {
-    margin-block: 24px;
-    background-color: #f8f8f8;
-    box-shadow: 2px 2px 4px grey;
-    font-size: 3rem;
-}
-
-.bluePart div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.bluePart p {
-    width: 40%;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    color: #f8f8f8;
-    text-shadow: 2px 2px 4px gray;
-}
-
-.whitePart {
-    background-color:white;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 16px;
-}
-
-.whitePart img {
-    width: 50%;
-}
-
-
-.video {
-    height: 400px;
-    width: 800px;
 }
 
 @media screen and (max-width:700px) {
