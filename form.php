@@ -18,7 +18,7 @@
     <h1 class="titre">Experience profetionnelle</h1>
     <div class="flexPage">
         <div class="nav-pro">
-<<<<<<< HEAD
+
             <div class="bloc">
                 <div>
                     <p>2002-2003</p>
@@ -37,7 +37,7 @@
                     <p>Preparateur de schtroumpfcommande</p>
                 </div>
                 <img class='gif' src="asset/aplaudi.gif" alt="strounf qui applaudi">
-=======
+
             <div>
                 <p>2002-2003</p>
                 <p>Chef patissier dans la vallé des schtroumpf</p>
@@ -54,7 +54,7 @@
                 <p>1999-2000</p>
                 <p>Preparateur de schtroumpfcommande</p>
                 <img class='gif' src="asset/img/aplaudi.gif" alt="strounf qui applaudi">
->>>>>>> 657c6fef4685b8620fe8a8a3d35a24ffd15df3fd
+
             </div>
         </div>
     </div>
