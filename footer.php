@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 <!DOCTYPE html>
@@ -17,8 +16,7 @@
 </body>
 
 
-=======
->>>>>>> 657c6fef4685b8620fe8a8a3d35a24ffd15df3fd
+
 <footer class="contacts">
     <ul>
         <li>schtroumpf.patisserie@gmail.com</li>
