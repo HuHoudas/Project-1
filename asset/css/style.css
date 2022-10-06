@@ -6,11 +6,22 @@
 }
 
 :root {
+    --primary: rgb(63, 70, 214);
+    --secondary: rgb(22, 122, 184);
+    --light: rgb(236, 244, 249);
+    --dark: rgb(31, 33, 34);
+    --lightDark: rgb(48, 59, 65);
 
-    --primary: #2CBAEC;
-    --light: #f8f8f8;
-    --dark: black;
-    --intermediate: #bbb6bb;
+    --spacing: 8px;
+    --spacing2: calc(8px * 2);
+    --spacing3: calc(8px * 3);
+    --spacing4: calc(8px * 4);
+    --spacing5: calc(8px * 5);
+
+    --font-familly: MyWebFont;
+
+    --font-size-other: 1.3rem;
+    --font-size-title: 2rem;
 }
 
 * {
@@ -136,7 +147,7 @@ p {
 
 .bluePart {
     margin-top: 16px;
-    background-color: #2CBAEC;
+    background-color: var(--secondary);
     display: flex;
     justify-content: space-around;
 }
@@ -154,6 +165,13 @@ p {
     align-items: flex-start;
 }
 
+.bluePart p {
+    width: 40%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--light);
+    text-shadow: 2px 2px 4px gray;
+}
 .whitePart div p {
     font-size: 1.5rem;
     line-height: 2.5rem;
