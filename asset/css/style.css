@@ -29,7 +29,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: var(--light);
 }
 
 .h1loisirs {
@@ -77,7 +77,7 @@ figcaption {
     width: 400px;
     height: 700px;
     font-size: 1.3rem;
-    background-color: #2CBAEC;
+    background-color: var(--secondary);
 }
 
 .figcaption h2 {
@@ -93,17 +93,17 @@ figcaption {
     left: 20px;
 }
 
-/* div {
-    display: flex;
-    align-items: center;
-} */
-
 main {
     display: flex;
     justify-content: space-around;
     background-size: cover;
     background-repeat: no-repeat;
     height: fit-content;
+}
+
+main img {
+    width: 40%;
+    box-shadow: 2px 2px 4px gray;
 }
 
 .bordure {
@@ -150,12 +150,14 @@ p {
     background-color: var(--secondary);
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 32px;
 }
 
 .bluePart h2 {
     margin-block: 24px;
-    background-color: #f8f8f8;
-    box-shadow: 2px 2px 4px grey;
+    background-color: var(--light);
+    box-shadow: 2px 2px 4px var(--lightDark);
     font-size: 3rem;
 }
 
@@ -170,7 +172,7 @@ p {
     font-size: 1.5rem;
     line-height: 2.5rem;
     color: var(--light);
-    text-shadow: 2px 2px 4px gray;
+    text-shadow: 2px 2px 4px var(--lightDark);
 }
 .whitePart div p {
     font-size: 1.5rem;
@@ -180,10 +182,10 @@ p {
 }
 
 .whitePart {
-    background-color:white;
+    background-color:var(--light);
     display: flex;
     justify-content: space-around;
-    margin-top: 16px;
+    margin: 32px;
 }
 
 .whitePart div {
@@ -194,12 +196,12 @@ p {
 
 .whitePart img {
     width: 50%;
-    margin-bottom: 16px;
+    box-shadow: 2px 2px 4px var(--lightDark);
 }
 
 .whitePart h2 {
     width: fit-content;
-    box-shadow: 2px 2px 4px gray;
+    box-shadow: 2px 2px 4px var(--lightDark);
 }
 
 .video {
