@@ -1,5 +1,20 @@
 :root {
-  font-size: 1.3ram;
+    --primary: rgb(63, 70, 214);
+    --secondary: rgb(22, 122, 184);
+    --light: rgb(236, 244, 249);
+    --dark: rgb(31, 33, 34);
+    --lightDark: rgb(48, 59, 65);
+
+    --spacing: 8px;
+    --spacing2: calc(8px * 2);
+    --spacing3: calc(8px * 3);
+    --spacing4: calc(8px * 4);
+    --spacing5: calc(8px * 5);
+
+    --font-familly: MyWebFont;
+
+    --font-size-other: 1.3rem;
+    --font-size-title: 2rem;
 }
 
 #bluetext {
@@ -40,7 +55,7 @@ textarea {
 
 button {
   background-color: var(--primary);
-  color: aquamarine;
+  color: var(--light);
   padding: 12px;
   border-width: 0;
   border-radius: 4px;
@@ -48,7 +63,6 @@ button {
   width: fit-content;
   margin-block-start: 8px;
   font-family: 'MyWebFont';
-
 }
 
 button:hover {

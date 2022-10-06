@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 <!DOCTYPE html>
@@ -16,10 +17,13 @@
 </body>
 
 
+=======
+>>>>>>> 657c6fef4685b8620fe8a8a3d35a24ffd15df3fd
 <footer class="contacts">
     <ul>
         <li>schtroumpf.patisserie@gmail.com</li>
         <li><button><a href="messagemoi.php">SCHTROUMPF MOI !</a></button></li>
         <li>00 01 02 03 04 05 06 07 08 09</li>
     </ul>
-</footer>
+</footer>    
+

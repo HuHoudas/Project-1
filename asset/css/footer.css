@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../font/creativeblock-bb.regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300 800;
+}
+
+:root {
+    --primary: rgb(63, 70, 214);
+    --secondary: rgb(22, 122, 184);
+    --light: rgb(236, 244, 249);
+    --dark: rgb(31, 33, 34);
+    --lightDark: rgb(48, 59, 65);
+
+    --spacing: 8px;
+    --spacing2: calc(8px * 2);
+    --spacing3: calc(8px * 3);
+    --spacing4: calc(8px * 4);
+    --spacing5: calc(8px * 5);
+
+    --font-familly: MyWebFont;
+
+    --font-size-other: 1.3rem;
+    --font-size-title: 2rem;
+}
+
+footer {
+    background-color: var(--secondary);
+    padding: 20px;
+    font-family: 'MyWebFont';
+}
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    color: var(--light);
+    font-size: var(--font-size-other);
+}
+
+button {
+    background-color: var(--primary);
+    padding: 12px;
+    border-width: 0;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    width: fit-content;
+    margin-block-start: 8px;
+    font-family: 'MyWebFont';
+  }
+
+  button a {
+    text-decoration: none;
+    color: var(--light);
+  }
+
+
+button:hover {
+    filter: brightness(120%);
+  
+  }
+  
+  button:active {
+    filter: brightness(80%);
+  
+  }
+
+@media  screen and (max-width:700px) {
+    footer {
+        min-width: 411px;
+    }
+}

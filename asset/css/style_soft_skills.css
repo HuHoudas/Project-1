@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MyWebFont';
-    src: url('creativeblock-bb.regular.ttf') format('truetype');
+    src: url('../font/creativeblock-bb.regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 300 800;
 }

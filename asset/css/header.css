@@ -1,15 +1,27 @@
 @font-face {
     font-family: 'MyWebFont';
-    src: url('creativeblock-bb.regular.ttf') format('truetype');
+    src: url('../font/creativeblock-bb.regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 300 800;
 }
 
 :root {
-    --primary: #2CBAEC;
+    --primary: rgb(63, 70, 214);
+    --secondary: rgb(22, 122, 184);
     --light: rgb(236, 244, 249);
-    --dark: rgb(3, 9, 13);
-    --intermediate: #bbb6bb;
+    --dark: rgb(31, 33, 34);
+    --lightDark: rgb(48, 59, 65);
+
+    --spacing: 8px;
+    --spacing2: calc(8px * 2);
+    --spacing3: calc(8px * 3);
+    --spacing4: calc(8px * 4);
+    --spacing5: calc(8px * 5);
+
+    --font-familly: MyWebFont;
+
+    --font-size-other: 1.3rem;
+    --font-size-title: 2rem;
 }
 
 * {
@@ -51,7 +63,7 @@ header div {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background: var(--primary);
+    background: var(--secondary);
 
 }
 
@@ -68,13 +80,6 @@ header div {
     color: black;
     letter-spacing: 1.2px;
 
-}
-
-.nav-pro {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: content-box;
-    list-style: none;
 }
 
 @media screen and (max-width:680px) {
@@ -98,7 +103,7 @@ header div {
     position: fixed;
     z-index: 1;
     top: 0;
-    background: var(--primary);
+    background: var(--secondary);
     padding-top: 60px;
     transition: left 0.5s ease;
     overflow: hidden;
@@ -143,7 +148,7 @@ header div {
     display: block;
     width: 35px;
     height: 5px;
-    background: var(--primary);
+    background: var(--secondary);
     margin: 6px 0;
 }
 
