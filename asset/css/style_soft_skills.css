@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../font/creativeblock-bb.regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300 800;
+}
+
+:root {
+    --primary: rgb(63, 70, 214);
+    --secondary: rgb(22, 122, 184);
+    --light: rgb(236, 244, 249);
+    --dark: rgb(31, 33, 34);
+    --lightDark: rgb(48, 59, 65);
+
+    --spacing: 8px;
+    --spacing2: calc(8px * 2);
+    --spacing3: calc(8px * 3);
+    --spacing4: calc(8px * 4);
+    --spacing5: calc(8px * 5);
+
+    --font-familly: MyWebFont;
+
+    --font-size-other: 1.3rem;
+    --font-size-title: 2rem;
+}
+.nav-pro{
+    padding: 10px;
+    background-color: var(--secondary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexPage{
+    background-color: var(--light);
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.titre{
+    background-color: var(--light);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    
+}
+h1 {
+    font-size: 80px;
+}
+h2.titre{
+    padding: 20px;
+    font-size: 80px;  
+}

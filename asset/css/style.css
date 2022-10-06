@@ -1,16 +1,27 @@
 @font-face {
     font-family: 'MyWebFont';
-    src: url('creativeblock-bb.regular.ttf') format('truetype');
+    src: url('../font/creativeblock-bb.regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 300 800;
 }
 
 :root {
+    --primary: rgb(63, 70, 214);
+    --secondary: rgb(22, 122, 184);
+    --light: rgb(236, 244, 249);
+    --dark: rgb(31, 33, 34);
+    --lightDark: rgb(48, 59, 65);
 
-    --primary: #2CBAEC;
-    --light: #f8f8f8;
-    --dark: black;
-    --intermediate: #bbb6bb;
+    --spacing: 8px;
+    --spacing2: calc(8px * 2);
+    --spacing3: calc(8px * 3);
+    --spacing4: calc(8px * 4);
+    --spacing5: calc(8px * 5);
+
+    --font-familly: MyWebFont;
+
+    --font-size-other: 1.3rem;
+    --font-size-title: 2rem;
 }
 
 * {
@@ -81,9 +92,10 @@ figcaption {
     top: 17px;
     left: 20px;
 }
+
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-size: cover;
     background-repeat: no-repeat;
     height: fit-content;
@@ -120,6 +132,69 @@ h2 {
 p {
     padding: 20px;
 
+}
+
+.bluePart {
+    margin-top: 16px;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-around;
+}
+
+.bluePart h2 {
+    margin-block: 24px;
+    background-color: #f8f8f8;
+    box-shadow: 2px 2px 4px grey;
+    font-size: 3rem;
+}
+
+.bluePart div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bluePart p {
+    width: 40%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--light);
+    text-shadow: 2px 2px 4px gray;
+}
+.whitePart div p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #000;
+    text-shadow: 2px 2px 4px lightgray;
+}
+
+.whitePart {
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.whitePart div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.whitePart img {
+    width: 50%;
+    margin-bottom: 16px;
+}
+
+.whitePart h2 {
+    width: fit-content;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.video {
+    height: 400px;
+    width: 800px;
+    margin-bottom: 16px;
 }
 
 @media screen and (max-width:700px) {
