@@ -2,15 +2,16 @@
   font-size: 1.3ram;
 }
 
-body {
-  background-image: url("home.jpg");
-  background-repeat: no-repeat;
-}
-
 #bluetext {
   color: black;
   display: flex;
   justify-content: center;
+  background-color: var(--light);
+  box-shadow: 2px 2px 4px grey;
+  padding: 10px;
+  width: fit-content;
+  margin: 16px;
+  font-size: 3rem;
 
 }
 
@@ -40,22 +41,23 @@ textarea {
 button {
   background-color: var(--primary);
   color: aquamarine;
-  padding: 8px;
+  padding: 12px;
   border-width: 0;
   border-radius: 4px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   width: fit-content;
-  margin-block-start: 4px;
+  margin-block-start: 8px;
+  font-family: 'MyWebFont';
 
 }
 
 button:hover {
-  filter: brightness(150%);
+  filter: brightness(120%);
 
 }
 
 button:active {
-  filter: brightness(100%);
+  filter: brightness(80%);
 
 }
 
@@ -64,4 +66,10 @@ button:active {
   justify-content: space-around;
   align-items: flex-start;
   padding: 100px;
+}
+
+.error {
+  background-color: rgb(245, 199, 199);
+  color: red;
+  padding: 8px;
 }

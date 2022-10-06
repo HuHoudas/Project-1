@@ -1,17 +1,15 @@
 @font-face {
     font-family: 'MyWebFont';
-    src: url('creativeblock-bb.regular.ttf') format('truetype');
+    src: url('../font/creativeblock-bb.regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 300 800;
 }
 
 footer {
-    background-color: var(--primary);
-    padding: 10px;
-
-
+    background-color: #2CBAEC;
+    padding: 20px;
+    font-family: 'MyWebFont';
 }
-
 ul {
     display: flex;
     gap: 20px;
