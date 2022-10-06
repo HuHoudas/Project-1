@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   if (!filter_var($contact['email'], FILTER_VALIDATE_EMAIL)) {
-    $errors[] = 'Leformat d\'email est incorrect';
+    $errors[] = 'Le format d\'email est incorrect';
   }
   $maxEmailLenght = 50;
   if (strlen($contact['email']) > $maxEmailLenght) {
@@ -89,8 +89,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input type="radio" name="Schtroumpf" <?php if (isset($Schtroumpf) && $Schtroumpf == "Non") echo "checked"; ?> value="Non">Non!
       </div>
 
+      <label for="subject">Sujet</label>
+      <select name="subject" id="subject">
+        <option value="offredemploi" selected>Proposez-moi une offre d'emploi</option>
+        <option value="gateu" >Fais moi un gâteau</option>
+        <option value="rendezvous">Emmène-moi à un rendez-vous</option>
+      </select>
+
       <label for="message">Message</label>
-      <textarea name="message" id="" cols="30" rows="10" required value="<?= $contact['message'] ?? '' ?>"></textarea>
+      <textarea name="message" id="" cols="30" rows="10" required><?= $contact['message'] ?? '' ?></textarea>
       <button>Envoyer</button>
     </form>
 
