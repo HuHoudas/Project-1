@@ -36,7 +36,6 @@
                     <p>1999-2000</p>
                     <p>Preparateur de schtroumpfcommande</p>
                 </div>
-                <img class='gif' src="asset/aplaudi.gif" alt="strounf qui applaudi">
 
             <div>
                 <p>2002-2003</p>
