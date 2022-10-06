@@ -1,11 +1,11 @@
 <?php
 
-if($_SERVER['REQUEST_METHOD']==='POST') {
-  
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
   //Nettoyage
   //foreach($_POST as $key => $value) {
-    //$contact[$key] = trim($value);
- // }
+  //$contact[$key] = trim($value);
+  // }
 
   $contact = array_map('trim', $_POST);
   $errors = [];
@@ -18,20 +18,20 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
         $errors[] ='Le prénom doit faire moins de' . $maxFisrtnameLength . 'caractères';
       }
 
-      if(empty($contact['email'])) {
-        $errors[] ='L\'email est obligatoire';
-      }
+  if (empty($contact['email'])) {
+    $errors[] = 'L\'email est obligatoire';
+  }
 
-      if(!filter_var($contact['email'], FILTER_VALIDATE_EMAIL)) {
-        $errors[] = 'Leformat d\'email est incorrect';
-      }
-      $maxEmailLenght = 50;
-      if(strlen($contact['email']) > $maxEmailLenght) {
-        $errors[] ='L\'email doit faire moins de' . $maxEmailLenght . 'caractères';
-      }
-      if(empty($contact['message'])) {
-        $errors[] ='Le message est obligatoire';
-      }
+  if (!filter_var($contact['email'], FILTER_VALIDATE_EMAIL)) {
+    $errors[] = 'Leformat d\'email est incorrect';
+  }
+  $maxEmailLenght = 50;
+  if (strlen($contact['email']) > $maxEmailLenght) {
+    $errors[] = 'L\'email doit faire moins de' . $maxEmailLenght . 'caractères';
+  }
+  if (empty($contact['message'])) {
+    $errors[] = 'Le message est obligatoire';
+  }
 
       if(empty($errors)) {
         // traitement de mon form
@@ -44,18 +44,19 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacter Moi</title>
-    <link rel="stylesheet" href="./asset/css/style.css">
-    <link rel="stylesheet" href="./asset/css/header.css">
-    <link rel="stylesheet" href="./asset/css/footer.css">
-    <link rel="stylesheet" href="./asset/css/messagemoi.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacter Moi</title>
+  <link rel="stylesheet" href="./asset/css/style.css">
+  <link rel="stylesheet" href="./asset/css/header.css">
+  <link rel="stylesheet" href="./asset/css/footer.css">
+  <link rel="stylesheet" href="./asset/css/messagemoi.css">
 
 </head>
-<?php include "header.php"?>
+<?php include "header.php" ?>
 
 <body>
 
@@ -84,12 +85,8 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
 
       <div class="etTu">
         Et-tu Schtroumpf ?
-      <input type="radio" name="Schtroumpf";
-      <?php if (isset($Schtroumpf) && $Schtroumpf=="Oui") echo "checked";?>
-      value="Oui">Oui!
-      <input type="radio" name="Schtroumpf"
-      <?php if (isset($Schtroumpf) && $Schtroumpf=="Non") echo "checked";?>
-      value="Non">Non!
+        <input type="radio" name="Schtroumpf" ; <?php if (isset($Schtroumpf) && $Schtroumpf == "Oui") echo "checked"; ?> value="Oui">Oui!
+        <input type="radio" name="Schtroumpf" <?php if (isset($Schtroumpf) && $Schtroumpf == "Non") echo "checked"; ?> value="Non">Non!
       </div>
 
       <label for="message">Message</label>

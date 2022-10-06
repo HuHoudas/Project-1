@@ -19,7 +19,7 @@
 <div class="loisirs1">
     <figure>
         <figcaption>
-            <img class ="arondi" src="./asset/plage.jpg" alt="Natation">
+            <img class ="arondi" src="./asset/img/plage.jpg" alt="Natation">
             <h2>La Natation</h2>
             <p>J'aime schtroumpf natation. Je me sent comme un schtroumpf poisson dans l'eau. De plus, c'est un bon soprt pour garde la schtroumpf forme physique, sans trop se schtroumpfer.</p>
         </figcaption>

@@ -1,10 +1,10 @@
 <header>
   <div id="mySidenav" class="sidenav">
-    <a id="closeBtn" href="#" class="close">x</a>
+    <div class="close"><a id="closeBtn" href="#">x</a></div>
     <ul>
-      <li><a href="index.php">Profil</a></li>
-      <li><a href="form.php">Experience</a></li>
-      <li><a href="loisirs.php">Loisirs</a></li>
+      <li><a href="index.php" class="navBtn">Profil</a></li>
+      <li><a href="form.php" class="navBtn">Experience</a></li>
+      <li><a href="loisirs.php" class="navBtn">Loisirs</a></li>
       <img src="./asset/img/schtroumpfs-image-animee-0005.gif" alt="schtroumpf">
     </ul>
   </div>
