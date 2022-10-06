@@ -18,21 +18,23 @@
     <h1 class="titre">Experience profetionnelle</h1>
     <div class="flexPage">
         <div class="nav-pro">
-            <div>
-                <p>2002-2003</p>
-                <p>Chef patissier dans la vallé des schtroumpf</p>
-            </div>
-            <div>
-                <p>2001-2002</p>
-                <p>Commit de cuisine au grand schtroumpf</p>
-            </div>
-            <div>
-                <p>2000-2001</p>
-                <p>Apprenti schtroumpf patitier</p>
-            </div>
-            <div>
-                <p>1999-2000</p>
-                <p>Preparateur de schtroumpfcommande</p>
+            <div class="bloc">
+                <div>
+                    <p>2002-2003</p>
+                    <p>Chef patissier dans la vallé des schtroumpf</p>
+                </div>
+                <div>
+                    <p>2001-2002</p>
+                    <p>Commit de cuisine au grand schtroumpf</p>
+                </div>
+                <div>
+                    <p>2000-2001</p>
+                    <p>Apprenti schtroumpf patitier</p>
+                </div>
+                <div>
+                    <p>1999-2000</p>
+                    <p>Preparateur de schtroumpfcommande</p>
+                </div>
                 <img class='gif' src="asset/aplaudi.gif" alt="strounf qui applaudi">
             </div>
         </div>
@@ -42,8 +44,10 @@
 
     <h2 class="titre">formation/Diplome</h2>
     <ul>
-        <li> obtention du schroumpf patitier</li>
-
+        <div class="titre">
+        <p > Obtention du schroumpf patitier<br></p>
+        <p > En formation développeur web</p>
+        </div>
     </ul>
 
     <?php include "footer.php" ?>

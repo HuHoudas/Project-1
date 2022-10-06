@@ -23,16 +23,29 @@
     --font-size-other: 1.3rem;
     --font-size-title: 2rem;
 }
-.nav-pro{
+.bloc.nav-pro{
+    padding: 10px;
+    background-color: var(--secondary); background-color: var(--secondary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+}
+.bloc{
     padding: 10px;
     background-color: var(--secondary);
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
 }
 .flexPage{
-    background-color: var(--light);
+    padding: 10px;
+    background-color: var(--secondary);
     width: 100%;
     display: flex;
     flex-direction:column;
@@ -43,13 +56,14 @@ body{
     flex-direction: column;
 }
 .titre{
+ 
     background-color: var(--light);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
-    
+    flex-direction: column;
 }
 h1 {
     font-size: 80px;
@@ -57,4 +71,11 @@ h1 {
 h2.titre{
     padding: 20px;
     font-size: 80px;  
+}
+.gif{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-end;
+   
 }
