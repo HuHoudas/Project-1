@@ -11,44 +11,43 @@
     <link rel="stylesheet" href="./asset/style_soft_skills.css">
     <title>Document</title>
 </head>
-<?php include "header.php" ?>
-<body>
-    <div>
-        <ul class="nav-pro">
-            <div>
-                <h1 class="nav-pro">Expereience profetionnelle</h1>
-                <div>
-                    <p>2002-2003</p>
-                    <li >Chef patissier dans la vallé des schtroumpf</a></li>
 
-                </div>
-                <div>
-                    <p>2001-2002</p>
-                    <li><a href=#></a>Commit de cuisine au grand schtroumpf</li>
-                </div>
-                
-                <div>
-                    <p>2000-2001</p>
-                    <li ><a href=#></a>Apprenti schtroumpf patitier</li>
-                </div>
-                <div>
-                    <p>1999-2000</p>
-                    <li><a href=#></a>Preparateur de schtroumpfcommande</li>
-                </div>
-            </div>
-        </ul>
-    </div>
-    <div>
+<body>
+    <?php include "header.php" ?>
+
+    <h1 class="titre">Experience profetionnelle</h1>
+    <div class="flexPage">
         <div class="nav-pro">
-            <h2 class="nav-pro">formation/Diplôme</h2>
-            <img src="asset/aplaudi.gif" alt="strounf qui applaudi">
-                <li > obtention du schroumpf patitier</a></li>
-           
-            
+            <div>
+                <p>2002-2003</p>
+                <p>Chef patissier dans la vallé des schtroumpf</p>
+            </div>
+            <div>
+                <p>2001-2002</p>
+                <p>Commit de cuisine au grand schtroumpf</p>
+            </div>
+            <div>
+                <p>2000-2001</p>
+                <p>Apprenti schtroumpf patitier</p>
+            </div>
+            <div>
+                <p>1999-2000</p>
+                <p>Preparateur de schtroumpfcommande</p>
+                <img class='gif' src="asset/aplaudi.gif" alt="strounf qui applaudi">
+            </div>
         </div>
-    
     </div>
+
+
+
+    <h2 class="titre">formation/Diplome</h2>
+    <ul>
+        <li> obtention du schroumpf patitier</li>
+
+    </ul>
+
+    <?php include "footer.php" ?>
+
 </body>
-<?php include "footer.php" ?>
 
 </html>
