@@ -25,12 +25,10 @@
   align-items: center;
   flex-wrap: wrap;
   background-color: var(--light);
-  box-shadow: 2px 2px 4px grey;
-  padding: 10px;
+  padding: 8px;
   width: 100%;
   margin: 16px;
   font-size: 3rem;
-
 }
 
 #contactform {
@@ -39,8 +37,12 @@
   flex-direction: column;
   width: 40%;
   margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
   padding: 8%;
-  background-color: var(--light);
+  box-shadow: 3px 4px 6px grey;
+  padding: 50px;
+  gap: 50px;
 }
 
 label {
@@ -90,14 +92,6 @@ button:active {
   background-color: rgb(243, 77, 77);
   color: red;
   padding: 8px;
-}
-
-.happy {
-  display: flex;
-  justify-self: center;
-  width: 15%;
-  height: 20%;
-  padding-top: 50px;
 }
 
 @media screen and (max-width:700px) {

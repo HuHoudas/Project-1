@@ -60,13 +60,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <body>
 
-  <section id="contact">
+  <section id="contactform1">
   
     <element id="bluetext">
       <h1>
         Contacter le Schtroumpf !
       </h1>
-      <img class ="happy" src="./asset/img/schtroumpf23.gif" alt="Schtroumpf">
+      <img src="./asset/img/schtroumpf23.gif" alt="Schtroumpf">
     </element>
   
       <form id="contactform" action="" method="POST">
@@ -94,7 +94,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <button>Envoyer</button>
     </form>
 
-    </section>
 </body>
 
 <?php include "footer.php"?>

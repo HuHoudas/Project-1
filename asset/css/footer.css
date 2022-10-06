@@ -28,14 +28,14 @@ footer {
   background-color: var(--secondary);
   padding: 20px;
   font-family: 'MyWebFont';
-  margin-top: 16px;
 }
 
 ul {
   display: flex;
-  gap: 20px;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
 }
 
 li {
