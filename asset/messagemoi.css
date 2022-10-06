@@ -73,3 +73,10 @@ button:active {
   color: red;
   padding: 8px;
 }
+
+@media  screen and (max-width:700px) {
+  .contactform {
+      min-width: 411px;
+      flex-wrap: wrap;
+  }
+}

@@ -9,11 +9,13 @@ footer {
     background-color: #2CBAEC;
     padding: 20px;
     font-family: 'MyWebFont';
+    font-size: 1.5rem;
 }
 ul {
     display: flex;
     gap: 20px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 li {
@@ -23,5 +25,6 @@ li {
 @media  screen and (max-width:700px) {
     footer {
         min-width: 411px;
+        flex-wrap: wrap;
     }
 }

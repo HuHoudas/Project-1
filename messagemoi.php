@@ -13,9 +13,9 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
       if(empty($contact['firstname'])) {
         $errors[] ='Le prénom est obligatoire';
       }
-      $maxFisrtnameLenght = 14;
-      if(strlen($contact['firstname']) > $maxFisrtnameLenght) {
-        $errors[] ='Le prénom doit faire moins de' . $maxFisrtnameLenght . 'caractères';
+      $maxFisrtnameLength = 14;
+      if(strlen($contact['firstname']) > $maxFisrtnameLength) {
+        $errors[] ='Le prénom doit faire moins de' . $maxFisrtnameLength . 'caractères';
       }
 
       if(empty($contact['email'])) {
@@ -38,11 +38,6 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
         echo 'OK';
         header('Location: messagemoi.php');
       }
-
-
-    var_dump($_POST);
-    var_dump($contact);
-    var_dump($errors);
 }
 ?>
 
@@ -60,28 +55,7 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
     <link rel="stylesheet" href="./asset/messagemoi.css">
 
 </head>
-<header>
-  <div id="mySidenav" class="sidenav">
-    <a id="closeBtn" href="#" class="close">×</a>
-    <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="form.php">Expérience</a></li>
-      <li><a href="loisirs.php">Loisir</a></li>
-      
-
-    </ul>
-    <img src="asset/schtroumpfs-image-animee-0005.gif" alt="mushroom house">
-  </div>
-
-  <a href="#" id="openBtn">
-    <span class="burger-icon">
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-  </a>
-  <script src="asset/index.js"></script>
-</header>
+<?php include "header.php"?>
 
 <body>
 
@@ -119,5 +93,7 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
       <textarea name="message" id="" cols="30" rows="10" required></textarea>
       <button>Envoyer</button>
 </body>
+
+<?php include "footer.php"?>
 
 </html>
