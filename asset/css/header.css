@@ -39,8 +39,8 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 25px;
 
 }
 
@@ -89,7 +89,7 @@ header div {
 }
 
 .double-nav .breadcrumb-dn {
-    color: #fff;
+    color: var(--light);
 }
 
 .side-nav.wide.slim .sn-ad-avatar-wrapper a span {
@@ -99,7 +99,7 @@ header div {
 .sidenav {
     display: none;
     height: 100%;
-    width: 400px;
+    width: 500px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -110,8 +110,8 @@ header div {
 }
 
 /* Sidenav menu links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
+.sidenav .navBtn {
+    padding: 8px 32px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: black;
@@ -158,10 +158,10 @@ header div {
     align-items: center;
 }
 
-.sidenav ul li a {
+.sidenav ul li .navBtn {
     font-size: 2.5rem;
     font-family: MyWebFont;
-    background-color: #fff;
+    background-color: var(--light);
     box-shadow: 2px 2px 4px grey;
 }
 
@@ -169,4 +169,15 @@ header div {
     height: fit-content;
     width: fit-content;
     margin-top: 200px;
+}
+
+.close {
+    background-color: var(--light);
+    width: fit-content;
+}
+
+#closeBtn {
+    text-decoration: none;
+    color: var(--dark);
+    padding-inline: 8px;
 }
