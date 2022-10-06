@@ -34,15 +34,15 @@ body {
     display: flex;
     justify-items: center;
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .loisirs2 {
     display: flex;
     justify-items: center;
     justify-content: space-around;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-bottom: auto;
 }
 
@@ -107,7 +107,7 @@ main {
     color: var(--primary);
     font-size: 4rem;
 }
-
+.h1loisirs {
     margin-right: 20px;
     margin-block: 40px;
     background-color: var(--light);

@@ -2,16 +2,16 @@
   font-size: 1.3ram;
 }
 
-body {
-  background-image: url("home.jpg");
-  background-repeat: no-repeat;
-}
-
 #bluetext {
-  font-size: 2.5ram;
   color: black;
   display: flex;
   justify-content: center;
+  background-color: var(--light);
+  box-shadow: 2px 2px 4px grey;
+  padding: 10px;
+  width: fit-content;
+  margin: 16px;
+  font-size: 3rem;
 
 }
 
@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin-left: 50%;
+  margin: auto;
 }
 
 label {
@@ -46,18 +46,18 @@ button {
   border-radius: 4px;
   font-size: 1.5rem;
   width: fit-content;
-  margin-block-start: 4px;
+  margin-block-start: 8px;
   font-family: 'MyWebFont';
 
 }
 
 button:hover {
-  filter: brightness(150%);
+  filter: brightness(120%);
 
 }
 
 button:active {
-  filter: brightness(100%);
+  filter: brightness(80%);
 
 }
 
@@ -66,4 +66,10 @@ button:active {
   justify-content: space-around;
   align-items: flex-start;
   padding: 100px;
+}
+
+.error {
+  background-color: rgb(245, 199, 199);
+  color: red;
+  padding: 8px;
 }
