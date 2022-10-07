@@ -26,10 +26,11 @@
   gap: 30px;
   flex-wrap: wrap;
   background-color: var(--light);
+  color: var(--primary);
   padding: 8px;
   margin: 16px;
   margin-top: 60px;
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 #contactform {

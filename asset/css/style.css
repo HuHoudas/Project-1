@@ -34,11 +34,12 @@ body {
 
 .h1loisirs {
     background-color: var(--light);
+    color: var(--primary);
     display: flex;
     justify-content: center;
     padding: 10px;
     margin: 16px;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .loisirs1 {
