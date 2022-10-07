@@ -19,14 +19,14 @@
                 <h1> SCHTROUMPF</br> PATISSIER</h1>
             </div>
             <div class="div-subtitle">
-                <h2> Developeur Web Junior</h2>
+                <h2> Developpeur Web Junior</h2>
             </div>
         </div>
         <img class="bordure" src="asset/img/patisier.jpg" alt="strounf patitier">
     </main>
     <div class="bluePart">
         <div>
-            <h2>Profil</h2> 
+            <h2>Mon univers</h2> 
             <video controls="controls" class="video">
                 <source src="asset/video/les stroumf.mp4" alt="video des stroumf">
             </video>
@@ -46,7 +46,7 @@
     </div>
     <div class="whitePart">
         <div>
-            <h2>Description</h2>
+            <h2>Schtroumpf competance</h2>
             <p>Mes compétences de schtroumpf pâtissier liées au monde schtroumpf du web:
                 La passion schtroumpf de travailler sur les dernières technologies, de créer des logiciels de valeur, d'augmenter les revenus de l'entreprise et de voir l'équipe grandir ensemble sont quelques points qui animent mon schtroumpf passion de devenir le meilleur développeur schtroumpf au monde schtroumpf.</p>
         </div>
