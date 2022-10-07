@@ -10,20 +10,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $contact = array_map('trim', $_POST);
   $errors = [];
 
-  if (empty($contact['firstname'])) {
-    $errors[] = 'Le prénom est obligatoire';
-  }
-  $maxFisrtnameLenght = 14;
-  if (strlen($contact['firstname']) > $maxFisrtnameLenght) {
-    $errors[] = 'Le prénom doit faire moins de' . $maxFisrtnameLenght . 'caractères';
-  }
+      if(empty($contact['firstname'])) {
+        $errors[] ='Le prénom est obligatoire';
+      }
+      $maxFisrtnameLength = 14;
+      if(strlen($contact['firstname']) > $maxFisrtnameLength) {
+        $errors[] ='Le prénom doit faire moins de' . $maxFisrtnameLength . 'caractères';
+      }
 
   if (empty($contact['email'])) {
     $errors[] = 'L\'email est obligatoire';
   }
 
   if (!filter_var($contact['email'], FILTER_VALIDATE_EMAIL)) {
-    $errors[] = 'Leformat d\'email est incorrect';
+    $errors[] = 'Le format d\'email est incorrect';
   }
   $maxEmailLenght = 50;
   if (strlen($contact['email']) > $maxEmailLenght) {
@@ -33,16 +33,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $errors[] = 'Le message est obligatoire';
   }
 
-  if (empty($errors)) {
-    // traitement de mon form
-    echo 'OK';
-    header('Location: messagemoi.php');
-  }
-
-
-  var_dump($_POST);
-  var_dump($contact);
-  var_dump($errors);
+      if(empty($errors)) {
+        // traitement de mon form
+        echo 'OK';
+        header('Location: messagemoi.php');
+      }
 }
 ?>
 
@@ -65,25 +60,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <body>
 
-  <section id="contact">
-    <h1>
-      <element id="bluetext">
+  <section id="contactform1">
+  
+    <element id="bluetext">
+      <h1>
         Contacter le Schtroumpf !
-      </element>
-    </h1>
-    <form id="contactform" action="" method="POST">
-      <?php if (!empty($errors)) { ?>
-        <ul class="error">
-          <?php foreach ($errors as $error) { ?>
-            <li><?php echo $error; ?></li>
-          <?php } ?>
-        </ul>
-      <?php } ?>
+      </h1>
+      <img src="./asset/img/schtroumpf23.gif" alt="Schtroumpf">
+    </element>
+  
+      <form id="contactform" action="" method="POST">
+        <?php if (!empty($errors)) : ?>
+         <ul class="error">
+          <?php foreach ($errors as $error) : ?>
+         <li><?= $error; ?></li>
+         <?php endforeach; ?>
+          </ul>
+         <?php endif; ?>
       <label for="firstname">Prénom</label>
-      <input type="text" id="firstname" name="firstname" required>
+      <input type="text" id="firstname" name="firstname" required value="<?= $contact['firstname'] ?? '' ?>">
 
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="email" required value="<?= $contact['email'] ?? '' ?>">
 
       <div class="etTu">
         Et-tu Schtroumpf ?
@@ -91,9 +89,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input type="radio" name="Schtroumpf" <?php if (isset($Schtroumpf) && $Schtroumpf == "Non") echo "checked"; ?> value="Non">Non!
       </div>
 
+      <label for="subject">Sujet</label>
+      <select name="subject" id="subject">
+        <option value="offredemploi" selected>Proposez-moi une offre d'emploi</option>
+        <option value="gateu" >Fais moi un gâteau</option>
+        <option value="rendezvous">Emmène-moi à un rendez-vous</option>
+      </select>
+
       <label for="message">Message</label>
-      <textarea name="message" id="" cols="30" rows="10" required></textarea>
+      <textarea name="message" id="" cols="30" rows="10" required><?= $contact['message'] ?? '' ?></textarea>
       <button>Envoyer</button>
+    </form>
+
 </body>
-<?php include "footer.php" ?>
+
+<?php include "footer.php"?>
+
 </html>

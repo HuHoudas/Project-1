@@ -1,20 +1,20 @@
 :root {
-    --primary: rgb(63, 70, 214);
-    --secondary: rgb(22, 122, 184);
-    --light: rgb(236, 244, 249);
-    --dark: rgb(31, 33, 34);
-    --lightDark: rgb(48, 59, 65);
+  --primary: rgb(63, 70, 214);
+  --secondary: rgb(22, 122, 184);
+  --light: rgb(236, 244, 249);
+  --dark: rgb(31, 33, 34);
+  --lightDark: rgb(48, 59, 65);
 
-    --spacing: 8px;
-    --spacing2: calc(8px * 2);
-    --spacing3: calc(8px * 3);
-    --spacing4: calc(8px * 4);
-    --spacing5: calc(8px * 5);
+  --spacing: 8px;
+  --spacing2: calc(8px * 2);
+  --spacing3: calc(8px * 3);
+  --spacing4: calc(8px * 4);
+  --spacing5: calc(8px * 5);
 
-    --font-familly: MyWebFont;
+  --font-familly: MyWebFont;
 
-    --font-size-other: 1.3rem;
-    --font-size-title: 2rem;
+  --font-size-other: 1.3rem;
+  --font-size-title: 2rem;
 }
 
 
@@ -22,13 +22,13 @@
   color: black;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   background-color: var(--light);
-  box-shadow: 2px 2px 4px grey;
-  padding: 10px;
-  width: fit-content;
+  padding: 8px;
+  width: 100%;
   margin: 16px;
-  font-size: 3rem;
-
+  font-size: 3.5rem;
 }
 
 #contactform {
@@ -37,6 +37,12 @@
   flex-direction: column;
   width: 40%;
   margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 5%;
+  box-shadow: 3px 4px 6px grey;
+  gap: 50px;
+  border-radius: 8px;
 }
 
 label {
@@ -80,11 +86,26 @@ button:active {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 100px;
+}
+
+select {
+  padding: 8px;
+  box-shadow: 3px 4px 6px grey;
+  font-size: 1rem;
 }
 
 .error {
-  background-color: rgb(245, 199, 199);
-  color: red;
+  background-color: rgb(243, 77, 77);
+  color: rgb(245, 82, 82);
   padding: 8px;
+}
+
+@media screen and (max-width:600px) {
+  .contactform {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  #bluetext {
+    flex-wrap: wrap-reverse;
+}
 }
