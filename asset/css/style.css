@@ -355,4 +355,8 @@ h2 {
     .whitePart>img {
         width: 100%;
     }
+
+    figure{
+        margin-bottom: 20px;
+    }
 }
