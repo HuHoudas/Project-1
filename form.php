@@ -52,7 +52,6 @@
     <h2 class="titre">formation/Diplome</h2>
     <ul>
         <div class="titre">
-            <p > 2001 : Obtention du schroumpf patitier<br></p>
         <p >2004 : En formation développeur web</p>
         </div>
     </ul>
