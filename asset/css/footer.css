@@ -30,12 +30,13 @@ footer {
   font-family: 'MyWebFont';
 }
 
-ul {
+.contacts{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 100px;
+  padding-inline-start: 0;
 }
 
 li {
@@ -83,5 +84,7 @@ button:active {
   footer {
       flex-wrap: wrap;
       min-width: 411px;
+      padding: 0;
+      margin-top: 64px;
   }
 }
