@@ -162,7 +162,7 @@ p {
     margin-block: 24px;
     background-color: var(--light);
     box-shadow: 2px 2px 4px var(--lightDark);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .bluePart div {
