@@ -14,3 +14,12 @@ function openNav() {
 function closeNav() {
   sidenav.classList.remove("active");
 }
+
+const message =
+"Merci pour le schtroumpf intérêt que vous me portez. Je vous donne une schtroumpf reponse dans les plus breff delais.";
+
+document.getElementById("contactForm");
+addEventListener("submit", function (event) {
+  event.preventDefault();
+  alert(message);
+});

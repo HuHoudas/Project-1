@@ -23,11 +23,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 30px;
   flex-wrap: wrap;
   background-color: var(--light);
   padding: 8px;
   width: 100%;
   margin: 16px;
+  margin-top: 60px;
   font-size: 3.5rem;
 }
 
@@ -37,11 +39,11 @@
   flex-direction: column;
   width: 40%;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 35px;
+  margin-bottom: 35px;
   padding: 5%;
   box-shadow: 3px 4px 6px grey;
-  gap: 50px;
+  gap: 20px;
   border-radius: 8px;
 }
 
@@ -78,6 +80,27 @@ button:hover {
 }
 
 button:active {
+  filter: brightness(80%);
+
+}
+#button {
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 12px;
+  border-width: 0;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  width: fit-content;
+  margin-block-start: 8px;
+  font-family: 'MyWebFont';
+}
+
+#button:hover {
+  filter: brightness(120%);
+
+}
+
+#button:active {
   filter: brightness(80%);
 
 }
