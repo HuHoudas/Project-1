@@ -28,6 +28,7 @@ footer {
   background-color: var(--secondary);
   padding: 20px;
   font-family: 'MyWebFont';
+  width: 100%;
 }
 
 .contacts{
@@ -85,6 +86,15 @@ button:active {
       flex-wrap: wrap;
       min-width: 411px;
       padding: 0;
-      margin-top: 64px;
   }
+  .contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
 }
