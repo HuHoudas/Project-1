@@ -43,6 +43,7 @@
 
             Tu verras le Grand Schtroumpf
 </p>
+<div class="danse"><img src="asset/img/schtroumpfette-danse.gif" alt=""></div>
     </div>
     <div class="whitePart">
         <div>

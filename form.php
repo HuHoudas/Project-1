@@ -14,19 +14,19 @@
 
 <body>
     <?php include "header.php" ?>
-    <div class='fleur' >
-                <img src='asset/img/pitufo.jpg' alt =' stroumpf avec fleur'>
-                </div>
     <h1 class="titre">Experience profetionnelle</h1>
     <div class="flexPage">
         <div class="nav-pro">
 
             <div class="bloc">
+                <div class='fleur'>
+                    <img src='asset/img/pitufina.gif' alt=' stroumpf avec fleur'>
+                </div>
                 <div class="blic">
                     <p>2002-2003</p>
                     <p>Chef patissier dans la vallé des schtroumpf</p>
                 </div>
-                
+
                 <div>
                     <p>2001-2002</p>
                     <p>Commit de cuisine au grand schtroumpf</p>
@@ -40,20 +40,23 @@
                     <p>Preparateur de schtroumpfcommande</p>
                 </div>
                 <div class='gif'>
-                <img  src="asset/img/aplaudi.gif" alt="strounf qui applaudi">
-                
+                    <img src="./asset/img/aplaudi.gif" alt="strounf qui applaudi">
+
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    
+
+
+
     <h2 class="titre">formation/Diplome</h2>
     <ul>
-        <div class="titre">
-            <p > 2001 : Obtention du schroumpf patitier<br></p>
-        <p >2004 : En formation développeur web</p>
+        <div class="bluc">
+            <p> 2001 : Obtention du schroumpf patitier<br></p>
+            <p>2004 : En formation développeur web</p>
+        </div>
+        <div class="jump">
+            <img src="./asset/img/schtroumpf-012.gif" alt="">
         </div>
     </ul>
 
