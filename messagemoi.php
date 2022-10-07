@@ -94,8 +94,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
       <div class="etTu">
         Et-tu Schtroumpf ?
-        <input type="radio" name="Schtroumpf" ; <?php if (isset($Schtroumpf) && $Schtroumpf == "Oui") echo "checked"; ?> value="Oui">Oui!
-        <input type="radio" name="Schtroumpf" <?php if (isset($Schtroumpf) && $Schtroumpf == "Non") echo "checked"; ?> value="Non">Non!
+        <label for="oui"> Oui !</label>
+        <input type="radio" name="Schtroumpf" id="oui" ; <?php if (isset($Schtroumpf) && $Schtroumpf == "Oui") echo "checked"; ?> value="Oui">
+        <label for="non">Non !</label>
+        <input type="radio" name="Schtroumpf" id="non" <?php if (isset($Schtroumpf) && $Schtroumpf == "Non") echo "checked"; ?> value="Non">
       </div>
 
       <label for="subject">Sujet</label>
@@ -109,7 +111,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <textarea name="message" id="" cols="30" rows="10" required><?= $contact['message'] ?? '' ?></textarea>
       <input type="submit" value="Envoyer" id="button"/>
     </form>
-    <script src="index.js"></script>
+    <script src="./asset/js/index.js"></script>
 </body>
 
 <?php include "footer.php"?>
