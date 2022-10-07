@@ -48,8 +48,13 @@
     color: var(--light);
 
 }
+.blic{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
 
 .blic>p {
+   padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,25 +90,30 @@ body {
 }
 
 .bluc {
-
+    
+    padding-top: 10px;
+    padding-bottom: 20px;
     background-color: var(--light);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
     flex-direction: column;
     color: var(--secondary);
     text-align: end;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 4rem;
+}
+
+.pwoutte {
+    gap: 0;
 }
 
 h2.titre {
-    padding: 20px;
-    font-size: 80px;
+    padding: 0;
+    font-size: 3rem;
 }
 
 .gif {
@@ -120,7 +130,6 @@ h2.titre {
 .fleur>img
 {
     width: 15%;
-    height: 25%;
     position: absolute;
     left: 0;
     top: 5%;
@@ -130,12 +139,12 @@ h2.titre {
     width: 15%;
     position: absolute;
     right: 0;
-    bottom: 20%;
+    bottom: 29%;
 }
 
 .jump>img {
     width: 15%;
     position: absolute;
     left: 0;
-    bottom: -43%;
+    bottom: -7%;
 }

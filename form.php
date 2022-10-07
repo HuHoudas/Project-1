@@ -14,7 +14,7 @@
 
 <body>
     <?php include "header.php" ?>
-    <h1 class="titre">Experience profetionnelle</h1>
+    <h1 class="titre">Experience professionnelle</h1>
     <div class="flexPage">
         <div class="nav-pro">
 
@@ -27,15 +27,15 @@
                     <p>Chef patissier dans la vallé des schtroumpf</p>
                 </div>
 
-                <div>
+                <div class="blic">
                     <p>2001-2002</p>
                     <p>Commit de cuisine au grand schtroumpf</p>
                 </div>
-                <div>
+                <div class="blic">
                     <p>2000-2001</p>
-                    <p>Apprenti schtroumpf patitier</p>
+                    <p>Apprenti schtroumpf patissier</p>
                 </div>
-                <div>
+                <div class="blic">
                     <p>1999-2000</p>
                     <p>Preparateur de schtroumpfcommande</p>
                 </div>
@@ -50,10 +50,14 @@
 
 
     <h2 class="titre">formation/Diplome</h2>
-    <ul>
+    <ul class="pwoutte">
         <div class="bluc">
-            <p> 2001 : Obtention du schroumpf patitier<br></p>
-            <p>2004 : En formation développeur web</p>
+            <p>2001</p>
+            <p>Obtention du schroumpf patissier</p>
+        </div>
+        <div class="bluc">
+            <p>2004</p>
+            <p>En formation développeur web</p>
         </div>
         <div class="jump">
             <img src="./asset/img/schtroumpf-012.gif" alt="">

@@ -43,11 +43,10 @@
 
             Tu verras le Grand Schtroumpf
 </p>
-<div class="danse"><img src="asset/img/schtroumpfette-danse.gif" alt=""></div>
     </div>
     <div class="whitePart">
         <div>
-            <h2>Schtroumpf competance</h2>
+            <h2>Schtroumpf competence</h2>
             <p>Mes compétences de schtroumpf pâtissier liées au monde schtroumpf du web:
                 La passion schtroumpf de travailler sur les dernières technologies, de créer des logiciels de valeur, d'augmenter les revenus de l'entreprise et de voir l'équipe grandir ensemble sont quelques points qui animent mon schtroumpf passion de devenir le meilleur développeur schtroumpf au monde schtroumpf.</p>
         </div>

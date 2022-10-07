@@ -21,14 +21,14 @@
         <figcaption>
             <img class ="arondi" src="./asset/img/plage.jpg" alt="Natation">
             <h2>La Natation</h2>
-            <p>J'aime schtroumpf natation. Je me sent comme un schtroumpf poisson dans l'eau. De plus, c'est un bon soprt pour garde la schtroumpf forme physique, sans trop se schtroumpfer.</p>
+            <p>J'aime schtroumpf natation. Je me sent comme un schtroumpf poisson dans l'eau. De plus, c'est un bon sport pour garder la schtroumpf forme physique, sans trop se schtroumpfer.</p>
         </figcaption>
     </figure>
     <figure>
     <figcaption>
             <img class ="arondi" src="./asset/img/aviation.jpg" alt="Aviation">
             <h2>L'Aviation</h2>
-            <p>J'aime bien le schtroumpf ciel. Ce schtroumpf sentiment, schtroumpf sensation, tout au long de cette schtroumpf aviation aventure, que tout peut arriver, surtout le meilleur.</p>
+            <p>J'aime bien le schtroumpf ciel. Ce schtroumpf sentiment, schtroumpf sensation, tout au long de cette schtroumpf aventure, que tout peut arriver, surtout le meilleur.</p>
         </figcaption>
     </figure>
     <figure>
