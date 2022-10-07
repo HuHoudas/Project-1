@@ -1,5 +1,11 @@
 <?php
 
+$subjects = [
+  'offredemploi'=>'Proposez-moi une offre d\'emploi',
+  'gateu'=>'Fais moi un gâteau',
+  'rendezvous'=>'Emmène-moi à un rendez-vous',
+];
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   //Nettoyage
@@ -63,6 +69,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <section id="contactform1">
   
     <element id="bluetext">
+    <div class="envelope">
+       <img src="./asset/img/envelope.gif" alt="Schtroumpf">
+      </div>
       <h1>
         Contacter le Schtroumpf !
       </h1>
@@ -91,16 +100,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
       <label for="subject">Sujet</label>
       <select name="subject" id="subject">
-        <option value="offredemploi" selected>Proposez-moi une offre d'emploi</option>
-        <option value="gateu" >Fais moi un gâteau</option>
-        <option value="rendezvous">Emmène-moi à un rendez-vous</option>
+        <?php foreach ($subjects as $subject => $subjectMessage) : ?>
+          <option value="<?= $subject ?>"><?= $subjectMessage ?></option>
+          <?php endforeach; ?>
       </select>
 
       <label for="message">Message</label>
       <textarea name="message" id="" cols="30" rows="10" required><?= $contact['message'] ?? '' ?></textarea>
-      <button>Envoyer</button>
+      <input type="submit" value="Envoyer" id="button"/>
     </form>
-
+    <script src="index.js"></script>
 </body>
 
 <?php include "footer.php"?>
