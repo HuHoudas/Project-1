@@ -144,10 +144,8 @@ h2 {
     font-size: 2rem;
 }
 
-p {
-    padding: 20px;
 
-}
+
 
 .bluePart {
     margin-top: 16px;
@@ -162,7 +160,7 @@ p {
     margin-block: 24px;
     background-color: var(--light);
     box-shadow: 2px 2px 4px var(--lightDark);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .bluePart div {
@@ -214,15 +212,27 @@ p {
     margin-bottom: 16px;
 }
 
+.danse>img {
+    width: 13%;
+    position: absolute;
+    right: 20%;
+    bottom: -28%;
+}
+
 @media screen and (max-width:700px) {
     main {
         flex-wrap: wrap-reverse;
-        min-width: 411px;
+        min-width: 500px;
     }
 
-    .main-title {
+    .main-title>h1 {
         margin-block: 0;
         margin-inline: 0;
+        margin: 0;
+        font-size:3rem;
+    }
+    .div-subtitle>h2{
+        font-size: 1.5rem;
     }
 
     figure {
@@ -231,5 +241,22 @@ p {
 
     .loisirs1, .loisirs2 {
         flex-wrap: wrap;
+    }
+
+    .bluePart{
+        flex-wrap: wrap;
+    }
+
+    .video{
+        width: 412px;
+        min-width: 200px;
+    }
+
+    .bluePart p {
+        width: 100%;
+    }
+
+    .danse>img{
+        bottom: -47%;
     }
 }

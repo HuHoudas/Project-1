@@ -36,6 +36,7 @@ ul {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px;
+  padding-inline-start: 0;
 }
 
 li {
