@@ -104,7 +104,6 @@ header div {
     z-index: 1;
     top: 0;
     background: var(--secondary);
-    padding-top: 60px;
     transition: left 0.5s ease;
     overflow: hidden;
 }
@@ -156,6 +155,7 @@ header div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 40px;
 }
 
 .sidenav ul li .navBtn {
@@ -168,7 +168,7 @@ header div {
 .sidenav img {
     height: fit-content;
     width: fit-content;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .close {

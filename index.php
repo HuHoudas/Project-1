@@ -51,7 +51,7 @@
             <p>Mes compétences de schtroumpf pâtissier liées au monde schtroumpf du web:
                 La passion schtroumpf de travailler sur les dernières technologies, de créer des logiciels de valeur, d'augmenter les revenus de l'entreprise et de voir l'équipe grandir ensemble sont quelques points qui animent mon schtroumpf passion de devenir le meilleur développeur schtroumpf au monde schtroumpf.</p>
         </div>
-        <img src="./asset/img/index.jpeg" alt="village schtroumpf">
+        <img src="./asset/img/pay.jpg" alt="village schtroumpf">
     </div>
     <?php include "footer.php" ?>
 </body>
